@@ -16901,23 +16901,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.mfidoca@1.0",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "vendor.xiaomi.hardware.quickcamera@1.0",
 	owner: "xiaomi",
 	strip: {
@@ -18250,27 +18233,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.fx.tunnel@1.0",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "librfs_warp",
 	owner: "xiaomi",
 	strip: {
@@ -18973,23 +18935,6 @@ cc_prebuilt_binary {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/cnss-daemon"],
 			shared_libs: ["libcutils", "liblog", "libqmi_cci", "libqmi_common_so", "libnl", "libcld80211", "libperipheral_client", "libmdmdetect", "libqmiservices", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "cnss_diag",
-	owner: "xiaomi",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/cnss_diag"],
-			shared_libs: ["libcutils", "libdiag", "libhardware_legacy", "libtime_genoff", "libnl", "libcld80211", "libwifi-hal-ctrl", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -20678,23 +20623,6 @@ cc_prebuilt_binary {
 		},
 	},
 	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "ssgqmigd",
-	owner: "xiaomi",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/ssgqmigd"],
-			shared_libs: ["liblog", "libm", "libc", "libdl", ],
-		},
-	},
-	compile_multilib: "32",
 	strip: {
 		none: true,
 	},

@@ -1922,7 +1922,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.hardware.mfidoca@1.0 \
     vendor.xiaomi.hardware.quickcamera@1.0 \
     vendor.xiaomi.hardware.tidaservice@1.0 \
     vendor.xiaomi.hardware.tidaservice@1.1 \
@@ -2025,7 +2024,6 @@ PRODUCT_PACKAGES += \
     fingerprint.fpc_fod.default \
     fingerprint.goodix_fod.default \
     libgf_hal \
-    vendor.xiaomi.hardware.fx.tunnel@1.0 \
     librfs_warp \
     CACertService \
     CneApp \
@@ -2097,7 +2095,6 @@ PRODUCT_PACKAGES += \
     cdsprpcd \
     cnd \
     cnss-daemon \
-    cnss_diag \
     diag-router \
     dpmQmiMgr \
     dspservice \
@@ -2209,7 +2206,6 @@ PRODUCT_PACKAGES += \
     shsusrd \
     slim_daemon \
     sscrpcd \
-    ssgqmigd \
     ssgqmigd64 \
     ssgtzd \
     ssr_diag \
