@@ -3863,6 +3863,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -4025,6 +4026,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -4774,6 +4776,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4961,6 +4964,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4995,6 +4999,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5046,6 +5051,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5522,6 +5528,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5862,23 +5869,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libalLDC_p",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libalLDC_p.so"],
-			shared_libs: ["libz", "libdl", "libm", "liblog", "libc", ],
-		},
-	},
-	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5896,23 +5887,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libalhLDC_p",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libalhLDC_p.so"],
-			shared_libs: ["libz", "libdl", "libm", "liblog", "libc", ],
-		},
-	},
-	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6049,6 +6024,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6338,6 +6314,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6780,6 +6757,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7052,6 +7030,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7120,6 +7099,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7137,6 +7117,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7800,6 +7781,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7834,6 +7816,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7851,6 +7834,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8872,6 +8856,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8889,6 +8874,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9807,6 +9793,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10555,6 +10542,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -11779,6 +11767,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -12561,6 +12550,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14183,6 +14173,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	relative_install_path: "soundfx",
 	prefer: true,
 	soc_specific: true,
@@ -14730,6 +14721,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -18151,50 +18143,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "fingerprint.fpc_fod.default",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/hw/fingerprint.fpc_fod.default.so"],
-			shared_libs: ["liblog", "libpng", "libhidlbase", "libhidltransport", "libutils", "libcutils", "libhwbinder", "vendor.xiaomi.hardware.fx.tunnel@1.0", "libion", "libQSEEComAPI", "libdmabufheap", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/hw/fingerprint.fpc_fod.default.so"],
-			shared_libs: ["liblog", "libpng", "libhidlbase", "libhidltransport", "libutils", "libcutils", "libhwbinder", "vendor.xiaomi.hardware.fx.tunnel@1.0", "libion", "libQSEEComAPI", "libdmabufheap", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	relative_install_path: "hw",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "fingerprint.goodix_fod.default",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/hw/fingerprint.goodix_fod.default.so"],
-			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libutils", "libcutils", "liblog", "libion", "libgf_hal", "libc", "libm", "libdl", "libc++", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/hw/fingerprint.goodix_fod.default.so"],
-			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libutils", "libcutils", "liblog", "libion", "libgf_hal", "libc", "libm", "libdl", "libc++", ],
-		},
-	},
-	compile_multilib: "both",
-	relative_install_path: "hw",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libgf_hal",
 	owner: "xiaomi",
 	strip: {
@@ -18211,6 +18159,42 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "fingerprint.fpc_fod.default",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/hw/fingerprint.fpc_fod.default.so"],
+			shared_libs: ["liblog", "libpng", "libhidlbase", "libhidltransport", "libutils", "libcutils", "libhwbinder", "vendor.xiaomi.hardware.fx.tunnel@1.0", "libion", "libQSEEComAPI", "libdmabufheap", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "fingerprint.goodix_fod.default",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/hw/fingerprint.goodix_fod.default.so"],
+			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libutils", "libcutils", "liblog", "libion", "libgf_hal", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
 	prefer: true,
 	device_specific: true,
 }
@@ -19128,6 +19112,7 @@ cc_prebuilt_binary {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	strip: {
 		none: true,
 	},
@@ -19884,6 +19869,7 @@ cc_prebuilt_binary {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	strip: {
 		none: true,
 	},
@@ -20369,6 +20355,7 @@ cc_prebuilt_binary {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	strip: {
 		none: true,
 	},

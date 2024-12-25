@@ -1274,9 +1274,7 @@ PRODUCT_PACKAGES += \
     libaidenoiser \
     libalCFR \
     libalLDC \
-    libalLDC_p \
     libalhLDC \
-    libalhLDC_p \
     libanc_hdr \
     libancbase \
     libapengine \
@@ -2020,9 +2018,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qccvndhal_aidl-V1-ndk \
+    libgf_hal \
     fingerprint.fpc_fod.default \
     fingerprint.goodix_fod.default \
-    libgf_hal \
     librfs_warp \
     CACertService \
     CneApp \
