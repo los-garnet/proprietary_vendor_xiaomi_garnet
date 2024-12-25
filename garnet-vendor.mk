@@ -1372,6 +1372,7 @@ PRODUCT_PACKAGES += \
     libdisplayskuutils \
     libdlbdsservice \
     libdlbpreg \
+    libdlrmsc \
     libdpmqmihal \
     libdpps \
     libdrmfs \
