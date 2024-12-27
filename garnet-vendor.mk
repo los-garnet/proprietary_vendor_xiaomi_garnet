@@ -1753,7 +1753,6 @@ PRODUCT_PACKAGES += \
     libasphere \
     libdlbvol \
     libhwdap \
-    libmisoundfx \
     libshoebox \
     libswgamedap \
     libswspatializer \
