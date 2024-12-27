@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_default_stream_volumes.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_product_strategies.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_stream_volumes.xml \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/garnet/proprietary/vendor/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/102_SummerDay.png \
     vendor/xiaomi/garnet/proprietary/vendor/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/103_Fantasy.png \
     vendor/xiaomi/garnet/proprietary/vendor/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/104_Meet.png \
@@ -788,7 +787,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/vibrator/effect_5.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_5.bin \
     vendor/xiaomi/garnet/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/xiaomi/garnet/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/garnet/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/xiaomi/garnet/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
     vendor/xiaomi/garnet/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
@@ -1279,9 +1277,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_mf_superresolution \
     libarcsoft_supernight \
     libarcsoft_supernight_front \
-    libasn1cper \
-    libasn1crt \
-    libasn1crtx \
     libats \
     libaudio_log_utils \
     libaudiocloudctrl \
@@ -1370,7 +1365,6 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libfsalgocal \
     libgame_enhance \
-    libgdtap \
     libgnsspps \
     libgps.utils \
     libgpudataproducer \
@@ -1707,8 +1701,6 @@ PRODUCT_PACKAGES += \
     libxmi_slow_motion_triger \
     libxml \
     libxtadapter \
-    libxtwifi_server_protocol \
-    libxtwifi_server_protocol_uri_v3 \
     ls_nq_client-v1 \
     libwvdrmengine \
     nfc_nci.nqx.default.hw.v1 \
@@ -2184,7 +2176,5 @@ PRODUCT_PACKAGES += \
     wfdvndservice \
     wifidisplayhalservice \
     xtra-daemon \
-    xtwifi-client \
-    xtwifi-inet-agent \
     qccsyshal@1.2-service \
     wfdservice64
