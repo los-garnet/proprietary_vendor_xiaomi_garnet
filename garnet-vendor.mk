@@ -1108,7 +1108,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
-    audio.primary.parrot \
     camera.qcom \
     camera.xiaomi \
     com.dsi.ant@1.0-impl \
@@ -1201,26 +1200,18 @@ PRODUCT_PACKAGES += \
     libSnpeHtpV73Stub \
     libTrueSight \
     libXMFaceFocus \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
     lib_misound_asc \
     libadm \
     libadreno_app_profiles \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libagm \
     libaidenoiser \
     libalCFR \
     libalLDC \
     libalhLDC \
     libanc_hdr \
     libancbase \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libar-pal \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
@@ -1233,7 +1224,6 @@ PRODUCT_PACKAGES += \
     libasn1cper \
     libasn1crt \
     libasn1crtx \
-    libats \
     libaudio_log_utils \
     libaudiocloudctrl \
     libaudioroute_ext \
@@ -1341,7 +1331,6 @@ PRODUCT_PACKAGES += \
     libizat_core \
     libjnihelper \
     libjpege \
-    libkaraokepal \
     libkcl \
     libkernelmanager \
     libkeymasterdeviceutils \
@@ -1369,8 +1358,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmasc \
     libmcs \
     libmctfengine_stub \
@@ -1679,7 +1666,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss-V3-ndk_platform \
     vendor.qti.gnss-service \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
