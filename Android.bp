@@ -15644,6 +15644,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libgrpc++_unsecure_prebuilt.so",
             ],
             shared_libs: [
+                "libz",
                 "liblog",
                 "libc++",
                 "libc",
